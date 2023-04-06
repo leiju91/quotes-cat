@@ -1,0 +1,76 @@
+:root {
+    --sun-color: rgb(236, 222, 88);
+}
+
+.themeContainer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 300px;
+}
+
+.theme {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    border-radius: 30px;
+    padding: 8px;
+}
+.active {
+    border: 0.4rem solid #ffffff;
+    transition: 0.7s;
+}
+
+#dark {
+    background-color: black;
+}
+
+#sun {
+    background-color: var(--sun-color);
+}
+
+#pink {
+    background-color: pink;
+}
+
+#block {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: black;
+    color: white;
+    font-size: 2rem;
+    border-radius: 10px;
+    transition: 0.5s;
+    padding: 2rem;
+}
+
+.picOfCat {
+    position: absolute;   
+    width: 200px;
+    height: 200px;   
+    top: 60%;
+    left: 90%;
+    background-position: center center;
+    background-size: cover;  
+}
+
+img {
+    border-radius: 50%;
+}
+
+
+.darkTheme {
+    background-color: black;
+}
+
+.sunTheme {
+    background-color: #FFE69A;
+}
+
+.pinkTheme {
+    background-color: pink;
+}
